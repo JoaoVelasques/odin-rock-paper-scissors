@@ -33,6 +33,7 @@ console.log(playerChoice())
 
 // Compare the two picks //
 
+
 function compare(computerChoice, playerChoice) {
     if (computerChoice === playerChoice) {
         return console.log("You draw, play again!")
